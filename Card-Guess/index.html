@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guess The Card</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" async></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="padd">
+        <div class="header">
+          <h1>Guess The Card</h1>
+          <h1>Score : <span id="score">0</span></h1>
+        </div>
+
+        <div class="cards" id="cards"></div>
+      </div>
+    </div>
+    <div class="gameover-modal" id="g-over">
+      <p>
+        <i class="fas fa-ghost"></i>
+        <span> Game Over </span>
+        <button id="restart">Restart the Game</button>
+      </p>
+    </div>
+  </body>
+</html>
